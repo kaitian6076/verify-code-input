@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_code"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_code1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="-0.6dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_verify_code_shape"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_code2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-0.6dp"
+            android:layout_marginRight="-0.6dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_verify_code_shape"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_code3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-0.6dp"
+            android:layout_marginRight="-0.6dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_verify_code_shape"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_code4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-0.6dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_verify_code_shape"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_code"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@id/ll_code"
+        android:layout_alignBottom="@id/ll_code"
+        android:background="@android:color/transparent"
+        android:cursorVisible="false"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:textColor="@android:color/transparent" />
+</RelativeLayout>
+
